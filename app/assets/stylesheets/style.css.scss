@@ -1,2 +1,22 @@
 @import "bootstrap";
 
+body {
+  padding-top: 40px;
+}
+
+.status {
+  border-bottom: solid 1px #CCC;
+  padding: 5px 0;
+  p {
+    margin: 4px 0;
+  }
+  .admin {
+    display: none;
+  }
+  &.hover {
+    background: #FAFAFA;
+    .admin {
+      display: inline;
+    }
+  }
+}
